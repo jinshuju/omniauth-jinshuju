@@ -1,6 +1,6 @@
 # OmniAuth::Strategies::Jinshuju
 
-OAuth2 Strategy for [Jinshuju](https://www.jinshuju.net/)
+OAuth2 Strategy for [Jinshuju](https://jinshuju.net/)
 
 ## Installation
 
@@ -9,6 +9,11 @@ Add this line to your application's Gemfile:
 ```ruby
 gem 'omniauth-jinshuju'
 ```
+
+```ruby
+gem 'omniauth-jinshuju', git: 'git@github.com:jinshuju/omniauth-jinshuju.git'
+```
+
 
 And then execute:
 
