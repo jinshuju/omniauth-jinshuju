@@ -6,22 +6,14 @@ OAuth2 Strategy for [Jinshuju](https://jinshuju.net/)
 
 Add this line to your application's Gemfile:
 
-```ruby
-gem 'omniauth-jinshuju'
-```
 
 ```ruby
 gem 'omniauth-jinshuju', git: 'git@github.com:jinshuju/omniauth-jinshuju.git'
 ```
 
-
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install omniauth-jinshuju
 
 ## Usage
 
