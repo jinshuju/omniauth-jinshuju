@@ -49,7 +49,7 @@ Make sure your model is omniauthable. Generally this is "/app/models/user.rb"
   "uid"=>"123456",
   "info"=> {
     "name"=>"xiaojin",
-    "email"=>"box_user@email.com",
+    "email"=>"user@email.com",
   },
   "extra"=> {
     "raw_info"=> {
