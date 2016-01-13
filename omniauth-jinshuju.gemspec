@@ -4,14 +4,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'omniauth/jinshuju/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'omniauth-box-oauth2'
+  spec.name          = 'omniauth-jinshuju'
   spec.version       = OmniAuth::Jinshuju::VERSION
-  spec.authors       = ['Pramod Shinde']
-  spec.email         = ['pramodshinde7@gmail.com']
+  spec.authors       = ['Michael Chen']
+  spec.email         = ['michael.chen@admaster.com.cn']
 
-  spec.summary       = %q{A Box OAuth2 strategy for OmniAuth 1.x}
-  spec.description   = %q{A Box OAuth2 strategy for OmniAuth 1.x}
-  spec.homepage      = 'https://github.com/pramodshinde/omniauth-box-oauth2'
+  spec.summary       = %q{Offical Jinshuju OAuth2 strategy for OmniAuth}
+  spec.description   = %q{Offical Jinshuju OAuth2 strategy for OmniAuth}
+  spec.homepage      = 'https://github.com/jinshuju/omniauth-jinshuju'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")
