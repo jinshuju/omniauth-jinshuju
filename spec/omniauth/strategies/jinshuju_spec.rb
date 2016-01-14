@@ -35,11 +35,11 @@ describe OmniAuth::Strategies::Jinshuju do
     end
 
     it 'has correct authorize_url' do
-      expect(subject.client.options[:authorize_url]).to eq('/oauth/authorize')
+      expect(subject.client.options[:authorize_url]).to eq('https://account.jinshuju.net/oauth/authorize')
     end
 
     it 'has correct token_url' do
-      expect(subject.client.options[:token_url]).to eq('/oauth/token')
+      expect(subject.client.options[:token_url]).to eq('https://account.jinshuju.net/oauth/token')
     end
   end
 

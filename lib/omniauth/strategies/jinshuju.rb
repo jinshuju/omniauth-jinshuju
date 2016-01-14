@@ -8,8 +8,8 @@ module OmniAuth
 
       option :client_options, {
         site: 'https://api.jinshuju.net',
-        authorize_url: '/oauth/authorize',
-        token_url: '/oauth/token'
+        authorize_url: 'https://account.jinshuju.net/oauth/authorize',
+        token_url: 'https://account.jinshuju.net/oauth/token'
       }
 
       option :authorize_params, {scope: 'public forms read_entries write_entries'}
