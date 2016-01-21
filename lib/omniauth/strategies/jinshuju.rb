@@ -12,7 +12,7 @@ module OmniAuth
         token_url: 'https://account.jinshuju.net/oauth/token'
       }
 
-      option :authorize_params, {scope: 'public forms read_entries write_entries'}
+      option :authorize_params, {scope: 'public'}
       option :token_params, {
         parse: :json
       }
